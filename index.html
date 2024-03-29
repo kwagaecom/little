@@ -54,6 +54,103 @@ https://templatemo.com/tm-557-grad-school
         <!-- <li><a href="#section5">Video</a></li> -->
         <li><a href="#section6">Contact</a></li>
         <li><a href="schedule.html" class="external">Schedule A Demo</a></li>
+       <style>
+    .social-container {
+        text-align: center; /* Center horizontally */
+    }
+
+    .social-links {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center vertically */
+    }
+
+    .whats-chat,
+    .youtube-link
+      .twitter,
+    .Send-Message
+      .facebook
+    .pinterest{
+        margin: 0 10px; /* Add margin for spacing */
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #25d366;
+    }
+
+    .whats-chat svg,
+    .youtube-link svg 
+      .twitter svg,
+    .Send-Message svg 
+      .facebook svg 
+    .pinterest svg 
+      {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .whatsapp-text,
+    .youtube-text 
+     .twitter-text,
+    .Send-Message-text 
+      .facebook-text
+    .pinterest-text{
+        font-size: 14px;
+        color: #333;
+    }
+.social-links button {
+        margin-right: 10px; /* Adjust the margin-right value to your desired spacing */
+        padding: 10px 20px; /* Adjust padding as needed */
+        background-color: #007bff; /* Background color of the buttons */
+        color: white; /* Text color of the buttons */
+        border: none; /* Remove button border */
+        border-radius: 5px; /* Add some border-radius for rounded corners */
+        cursor: pointer; /* Change cursor to pointer on hover */
+    }
+</style>
+
+<div class='social-container'>
+    <div class='social-links'>
+        <button class='youtube-link' onclick='window.open("#", "_blank")'>
+            <!-- YouTube Icon -->
+            <svg fill='#000000' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M21.35 3.56c-0.2-0.77-0.78-1.38-1.54-1.56C18.88 1.8 12 1 12 1S5.12 1.8 3.19 2.81C2.43 2.99 1.84 3.6 1.64 4.36C1.21 6.33 1 8.33 1 10.33s0.21 4 0.64 5.97c0.2 0.77 0.78 1.38 1.54 1.56C5.12 19.2 12 20 12 20s6.88-0.8 8.81-1.81c0.76-0.18 1.34-0.79 1.54-1.56C22.79 14.33 23 12.33 23 10.33S22.79 6.33 22.35 3.56zM10 15.67V8.33L16.67 12 10 15.67z'/>
+            </svg>
+            <!-- YouTube Text -->
+            YouTube
+        </button>
+
+        <button class='twitter-link' onclick='window.open("#", "_blank")'>
+            <!-- Twitter Icon -->
+            <svg fill='#1DA1F2' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M0 0h24v24H0z' fill='none'/>
+                <path d='M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.44 9.61c.01.13.01.26.01.39 0 3.99-3.04 8.58-8.58 8.58-1.71 0-3.29-.5-4.62-1.36.23.03.46.05.7.05 1.37 0 2.63-.47 3.64-1.25-1.28-.02-2.36-.86-2.73-2.01.18.03.36.05.54.05.26 0 .51-.03.75-.08-1.31-.26-2.3-1.41-2.3-2.79v-.04c.38.21.81.34 1.27.36-.75-.5-1.31-1.35-1.31-2.34 0-.51.14-.98.38-1.39C5.33 6.36 8.14 8 11.5 8c.47 0 .93-.03 1.38-.08a5.078 5.078 0 0 1-2.67-2.39c.18.03.36.05.54.05.26 0 .51-.03.75-.08a5.02 5.02 0 0 0 4.28 2.26 5.13 5.13 0 0 1-2.3 5.34c1.06-.11 2.08-.41 3.04-.82-.36 1.08-.99 1.99-1.81 2.58a10.826 10.826 0 0 0 2.92-.8z'/>
+            </svg>
+            <!-- Twitter Text -->
+            Twitter
+        </button>
+
+      
+
+        <button class='facebook-link' onclick='window.open("#", "_blank")'>
+            <!-- Facebook Icon -->
+            <svg fill='#1877F2' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M12 1.88c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm2.153 12.783h-1.845v6.003h-2.767v-6.003h-1.845v2.625h1.845v1.567c0 2.026 1.206 3.145 3.053 3.145.881 0 1.834-.158 1.834-.158v-2.022h-1.03c-1.017 0-1.332-.632-1.332-1.28v-1.536h2.261l-0.289-2.625z'/>
+            </svg>
+            Facebook
+        </button>
+
+        <button class='pinterest-link' onclick='window.open("#", "_blank")'>
+            <!-- Pinterest Icon -->
+            <svg fill='#BD081C' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M12 0C5.373 0 0 5.373 0 12c0 4.945 2.941 9.204 7.125 11.125-.1-.938-.188-2.373.041-3.396.206-.875 1.344-5.558 1.344-5.558s-.344-.688-.344-1.708c0-1.604.938-2.8 2.103-2.8 0.988 0 1.466.744 1.466 1.637 0 1.002-.641 2.506-.975 3.901-.281 1.129.594 2.051 1.688 2.051 2.025 0 3.588-2.134 3.588-5.2 0-2.713-1.95-4.605-4.741-4.605-3.25 0-5.2 2.438-5.2 4.95 0 .969.375 2.012.844 2.581.094.119.106.225.075.356-.081.331-.275 1.05-.313 1.194-.031.144-.156.181-.306.106-1.031-.5-1.688-2.012-1.688-3.319 0-2.725 1.975-5.494 5.875-5.494 3.088 0 5.45 2.262 5.45 4.7 0 2.981-1.575 5.325-3.931 5.325-.775 0-1.506-.4-1.756-.875l-.475 1.806c-.169.662-.625 1.487-.938 1.994.706.219 1.45.338 2.225.338 4.831 0 8.575-3.831 8.575-9.006C24 5.373 18.627 0 12 0'/>
+            </svg>
+            Pinterest
+        </button>
+    </div>
+</div>
+<style> 
 <style>
 /* Define the special color */
 .special-color {
@@ -87,6 +184,16 @@ https://templatemo.com/tm-557-grad-school
               <h2><em>Your</em> Classroom</h2>
               <div class="main-button">
                   <div class="scroll-to-section"><a href="#section2">Know more</a></div>
+                 <a class='whats-chat' href='https://wa.me/7838090428?text=Experience %20 the %20 power %20 of %20 our%20 education%20 services. %20 We&apos;re %20 here %20 to %20 boost%20 your %20 knowledge, %20 engage %20 your, %20 self%20 and %20 be %20 succed %20 in%20 your %20 life %20 in%20 the %20 world of education  !' target='_blank'>
+            <!-- WhatsApp Icon -->
+            <svg viewbox='0 0 512 512'>
+                <rect fill='#fff' height='512' rx='15%' width='512'/>
+                <path d='M123 393l14-65a138 138 0 1150 47z' fill='#fff' stroke='#25d366' stroke-width='26'/>
+                <path d='M308 273c-3-2-6-3-9 1l-12 16c-3 2-5 3-9 1-15-8-36-17-54-47-1-4 1-6 3-8l9-14c2-2 1-4 0-6l-12-29c-3-8-6-7-9-7h-8c-2 0-6 1-10 5-22 22-13 53 3 73 3 4 23 40 66 59 32 14 39 12 48 10 11-1 22-10 27-19 1-3 6-16 2-18' fill='#25d366'/>
+                <!-- WhatsApp Text -->
+                <span><i class='fab fa-whatsup'/> </span>
+            </svg>
+        </a>
               </div>
           </div>
       </div>
