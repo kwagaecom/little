@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link href="assets/images/favicon-32x32.png" rel="icon">
+   <link href="assets/images/favicon-32x32.png" rel="icon">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
     <title>Coaching Class-Be Educate</title>
@@ -29,129 +29,239 @@ https://templatemo.com/tm-557-grad-school
 
 -->
   </head>
+<style>
+.social-share {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+}
 
+.social-share a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.social-share a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-share a svg {
+  width: 20px;
+  height: 20px;
+  fill: #555;
+  vertical-align: middle;
+}
+
+.social-share a.facebook svg {
+  fill: #3b5998;
+}
+
+.social-share a.whatsapp svg {
+  fill: #25d366;
+}
+
+.social-share a.pinterest svg {
+  fill: #bd081c;
+}
+
+.social-share a.linkedin svg {
+  fill: #0077b5;
+}
+
+@media only screen and (max-width: 600px) {
+  .social-share {
+    display: none;
+  }
+}
+
+/* Media Queries Shift Media Solutions| SMS */
+
+@media only screen and (max-width: 1080px) {
+  .body {
+    width: 100%;
+    overflow: auto;
+  }
+}
+
+  </style>
+
+
+  <div class="social-share">
+
+    <a href="https://www.facebook.com/profile.php?id=100083863996708" class="facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M20.05,0H3.95A3.952,3.952,0,0,0,0,3.95V20.05A3.952,3.952,0,0,0,3.95,24H12.63V14.71H9.62v-3H12.63v-1.5c0-3.6,2.2-5.55,5.38-5.55a28.475,28.475,0,0,1,3.18.16v3L18.79,9c-1.7,0-2,.81-2,1.95v1.5h4.05l-.53,3.05H16.8V24H20.05A3.952,3.952,0,0,0,24,20.05V3.95A3.952,3.952,0,0,0,20.05,0Z" />
+      </svg>
+    </a>
+
+    <a href="https://api.whatsapp.com/send/?phone=7838090428&text=Experience+++++the++++power++++of++++our++++website++++development++++services.++++We%27re++++here++++to++++elevate++++your++++brand%2C++++engage++++customers%2C+++++and++++bring++++your++++vision++++to++++life++++in++++the++++digital++++world+++%21&type=phone_number&app_absent=0" class="whatsapp"><svg viewBox="0 0 64 64">
+        <path d="M6.9,48.4c-0.4,1.5-0.8,3.3-1.3,5.2c-0.7,2.9,1.9,5.6,4.8,4.8l5.1-1.3c1.7-0.4,3.5-0.2,5.1,0.5 c4.7,2.1,10,3,15.6,2.1c12.3-1.9,22-11.9,23.5-24.2C62,17.3,46.7,2,28.5,4.2C16.2,5.7,6.2,15.5,4.3,27.8c-0.8,5.6,0,10.9,2.1,15.6 C7.1,44.9,7.3,46.7,6.9,48.4z M21.3,19.8c0.6-0.5,1.4-0.9,1.8-0.9s2.3-0.2,2.9,1.2c0.6,1.4,2,4.7,2.1,5.1c0.2,0.3,0.3,0.7,0.1,1.2 c-0.2,0.5-0.3,0.7-0.7,1.1c-0.3,0.4-0.7,0.9-1,1.2c-0.3,0.3-0.7,0.7-0.3,1.4c0.4,0.7,1.8,2.9,3.8,4.7c2.6,2.3,4.9,3,5.5,3.4 c0.7,0.3,1.1,0.3,1.5-0.2c0.4-0.5,1.7-2,2.2-2.7c0.5-0.7,0.9-0.6,1.6-0.3c0.6,0.2,4,1.9,4.7,2.2c0.7,0.3,1.1,0.5,1.3,0.8 c0.2,0.3,0.2,1.7-0.4,3.2c-0.6,1.6-2.1,3.1-3.2,3.5c-1.3,0.5-2.8,0.7-9.3-1.9c-7-2.8-11.8-9.8-12.1-10.3c-0.3-0.5-2.8-3.7-2.8-7.1 C18.9,22.1,20.7,20.4,21.3,19.8z"></path>
+      </svg></a>
+
+    <a href="https://in.pinterest.com/kwagaWDev/" class="pinterest"><svg viewBox="0 0 64 64">
+        <path d="M14.4,53.8c2.4,2,6.1,0.6,6.8-2.4l0-0.1c0.4-1.8,2.4-10.2,3.2-13.7c0.2-0.9,0.2-1.8-0.1-2.7 C24.2,34,24,32.8,24,31.5c0-4.1,2.4-7.2,5.4-7.2c2.5,0,3.8,1.9,3.8,4.2c0,2.6-1.6,6.4-2.5,9.9c-0.7,3,1.5,5.4,4.4,5.4 c5.3,0,8.9-6.8,8.9-14.9c0-6.1-4.1-10.7-11.6-10.7c-8.5,0-13.8,6.3-13.8,13.4c0,2.4,0.7,4.2,1.8,5.5c0.5,0.6,0.6,0.9,0.4,1.6 c-0.1,0.5-0.4,1.8-0.6,2.2c-0.2,0.7-0.8,1-1.4,0.7c-3.9-1.6-5.7-5.9-5.7-10.7c0-8,6.7-17.5,20-17.5c10.7,0,17.7,7.7,17.7,16 c0,11-6.1,19.2-15.1,19.2c-1.9,0-3.8-0.7-5.2-1.6c-0.9-0.6-2.1-0.1-2.4,0.9c-0.5,1.9-1.1,4.3-1.3,4.9c-0.1,0.5-0.3,0.9-0.4,1.4 c-1,2.7,0.9,5.5,3.7,5.7c2.1,0.1,4.2,0,6.3-0.3c12.4-2,22.1-12.2,23.4-24.7C61.5,18.1,48.4,4,32,4C16.5,4,4,16.5,4,32 C4,40.8,8.1,48.6,14.4,53.8z"></path>
+      </svg></a>
+
+    <a href="https://www.linkedin.com/in/kuldip-ray-311139179/99969-*+-++++
+" class="linkedin"><svg viewBox="0 0 64 64">
+        <path d="M8,54.7C8,55.4,8.6,56,9.3,56h9.3c0.7,0,1.3-0.6,1.3-1.3V23.9c0-0.7-0.6-1.3-1.3-1.3H9.3 c-0.7,0-1.3,0.6-1.3,1.3V54.7z"></path>
+        <path d="M46.6,22.3c-4.5,0-7.7,1.8-9.4,3.7c-0.4,0.4-1.1,0.1-1.1-0.5l0-1.6c0-0.7-0.6-1.3-1.3-1.3h-9.4 c-0.7,0-1.3,0.6-1.3,1.3c0.1,5.7,0,25.4,0,30.7c0,0.7,0.6,1.3,1.3,1.3h9.5c0.7,0,1.3-0.6,1.3-1.3V37.9c0-1,0-2,0.3-2.7 c0.8-2,2.6-4.1,5.7-4.1c4.1,0,6,3.1,6,7.6v15.9c0,0.7,0.6,1.3,1.3,1.3h9.3c0.7,0,1.3-0.6,1.3-1.3V37.4C60,27.1,54.1,22.3,46.6,22.3 z"></path>
+        <path d="M13.9,18.9L13.9,18.9c3.8,0,6.1-2.4,6.1-5.4C19.9,10.3,17.7,8,14,8c-3.7,0-6,2.3-6,5.4 C8,16.5,10.3,18.9,13.9,18.9z"></path>
+      </svg></a>
+
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js">
+var socialShareButtons = document.querySelectorAll(".social-share a");
+
+function shareOnFacebook() {
+  var title = document.title;
+  var url = window.location.href;
+  var shareUrl =
+    "https://www.facebook.com/?u=" +
+    encodeURIComponent(url) +
+    "&t=" +
+    encodeURIComponent(title);
+  window.open(
+    shareUrl,
+    "",
+    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600"
+  );
+}
+
+function shareOnWhatsApp() {
+  var title = document.title;
+  var url = window.location.href;
+  var shareUrl = "https://wa.me/?text=" + encodeURIComponent(title + " " + url);
+  window.open(
+    shareUrl,
+    "",
+    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600"
+  );
+}
+
+function shareOnPinterest() {
+  var title = document.title;
+  var url = window.location.href;
+  var shareUrl =
+    "https://www.pinterest.com/pin/create/button/?url=" +
+    encodeURIComponent(url) +
+    "&media=&description=" +
+    encodeURIComponent(title);
+  window.open(
+    shareUrl,
+    "",
+    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600"
+  );
+}
+
+function shareOnLinkedIn() {
+  var title = document.title;
+  var url = window.location.href;
+  var shareUrl =
+    "https://www.linkedin.com/sharing/share-offsite/?url=" +
+    encodeURIComponent(url) +
+    "&title=" +
+    encodeURIComponent(title);
+  window.open(
+    shareUrl,
+    "",
+    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600"
+  );
+}
+
+socialShareButtons.forEach(function (button) {
+  button.addEventListener("click", function (event) {
+    event.preventDefault();
+    var shareType = this.classList[0];
+    switch (shareType) {
+      case "facebook":
+        shareOnFacebook();
+        break;
+      case "whatsapp":
+        shareOnWhatsApp();
+        break;
+      case "pinterest":
+        shareOnPinterest();
+        break;
+      case "linkedin":
+        shareOnLinkedIn();
+        break;
+    }
+  });
+});
+
+  </script>
 <body>
 
    
   <!--header-->
   <header class="main-header clearfix" role="header">
+   <div class="header">
     <div class="logo">
-      <a href="#"><em>Premium</em> Coaching</a>
+        <a href="#"><em>Premium</em> Coaching</a>
     </div>
+   
+</div>
+
+<!-- Add Font Awesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<style>
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    flex: 1;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+}
+</style>
     <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
     <nav id="menu" class="main-nav" role="navigation">
       <ul class="main-menu">
-       <li><a href="#section1">Home</a></li>
-        <li class=#section2"><a href="#section2">About Us</a>
-          <!--<ul class="sub-menu">
+        <li><a href="#section1">Home</a></li>
+        <li class="has-submenu"><a href="#section2">About Us</a>
+          <ul class="sub-menu">
             <li><a href="#section2">Who we are?</a></li>
             <li><a href="#section3">What we do?</a></li>
             <li><a href="#section3">How it works?</a></li>
-           <li><a href="#" rel="sponsored" class="external">FAQ</a></li>
-          </ul>-->
+            <li><a href="#" rel="sponsored" class="external">FAQ</a></li>
+          </ul>
         </li>
         <li><a href="#section4">Courses</a></li>
-        <!-- <li><a href="#section5">Video</a></li> -->
+        <li><a href="#section5">Service</a></li> 
         <li><a href="#section6">Contact</a></li>
-        <li><a href="schedule.html" class="external">Schedule A Demo</a></li>
-       <style>
-    .social-container {
-        text-align: center; /* Center horizontally */
-    }
+        <li><a href="#section7">Schedule A Demo</a></li>
+<li><a href="#section8">Team</a></li>
+<li><a href="#section9">FAQ</a></li>
 
-    .social-links {
-        display: flex;
-        align-items: center;
-        justify-content: center; /* Center vertically */
-    }
-
-    .whats-chat,
-    .youtube-link
-      .twitter,
-    .Send-Message
-      .facebook
-    .pinterest{
-        margin: 0 10px; /* Add margin for spacing */
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: #25d366;
-    }
-
-    .whats-chat svg,
-    .youtube-link svg 
-      .twitter svg,
-    .Send-Message svg 
-      .facebook svg 
-    .pinterest svg 
-      {
-        width: 20px;
-        height: 20px;
-        margin-right: 5px;
-    }
-
-    .whatsapp-text,
-    .youtube-text 
-     .twitter-text,
-    .Send-Message-text 
-      .facebook-text
-    .pinterest-text{
-        font-size: 14px;
-        color: #333;
-    }
-.social-links button {
-        margin-right: 10px; /* Adjust the margin-right value to your desired spacing */
-        padding: 10px 20px; /* Adjust padding as needed */
-        background-color: #007bff; /* Background color of the buttons */
-        color: white; /* Text color of the buttons */
-        border: none; /* Remove button border */
-        border-radius: 5px; /* Add some border-radius for rounded corners */
-        cursor: pointer; /* Change cursor to pointer on hover */
-    }
-</style>
-
-<div class='social-container'>
-    <div class='social-links'>
-        <button class='youtube-link' onclick='window.open("#", "_blank")'>
-            <!-- YouTube Icon -->
-            <svg fill='#000000' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'>
-                <path d='M21.35 3.56c-0.2-0.77-0.78-1.38-1.54-1.56C18.88 1.8 12 1 12 1S5.12 1.8 3.19 2.81C2.43 2.99 1.84 3.6 1.64 4.36C1.21 6.33 1 8.33 1 10.33s0.21 4 0.64 5.97c0.2 0.77 0.78 1.38 1.54 1.56C5.12 19.2 12 20 12 20s6.88-0.8 8.81-1.81c0.76-0.18 1.34-0.79 1.54-1.56C22.79 14.33 23 12.33 23 10.33S22.79 6.33 22.35 3.56zM10 15.67V8.33L16.67 12 10 15.67z'/>
-            </svg>
-            <!-- YouTube Text -->
-            YouTube
-        </button>
-
-        <button class='twitter-link' onclick='window.open("#", "_blank")'>
-            <!-- Twitter Icon -->
-            <svg fill='#1DA1F2' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'>
-                <path d='M0 0h24v24H0z' fill='none'/>
-                <path d='M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.44 9.61c.01.13.01.26.01.39 0 3.99-3.04 8.58-8.58 8.58-1.71 0-3.29-.5-4.62-1.36.23.03.46.05.7.05 1.37 0 2.63-.47 3.64-1.25-1.28-.02-2.36-.86-2.73-2.01.18.03.36.05.54.05.26 0 .51-.03.75-.08-1.31-.26-2.3-1.41-2.3-2.79v-.04c.38.21.81.34 1.27.36-.75-.5-1.31-1.35-1.31-2.34 0-.51.14-.98.38-1.39C5.33 6.36 8.14 8 11.5 8c.47 0 .93-.03 1.38-.08a5.078 5.078 0 0 1-2.67-2.39c.18.03.36.05.54.05.26 0 .51-.03.75-.08a5.02 5.02 0 0 0 4.28 2.26 5.13 5.13 0 0 1-2.3 5.34c1.06-.11 2.08-.41 3.04-.82-.36 1.08-.99 1.99-1.81 2.58a10.826 10.826 0 0 0 2.92-.8z'/>
-            </svg>
-            <!-- Twitter Text -->
-            Twitter
-        </button>
-
-      
-
-        <button class='facebook-link' onclick='window.open("#", "_blank")'>
-            <!-- Facebook Icon -->
-            <svg fill='#1877F2' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'>
-                <path d='M12 1.88c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm2.153 12.783h-1.845v6.003h-2.767v-6.003h-1.845v2.625h1.845v1.567c0 2.026 1.206 3.145 3.053 3.145.881 0 1.834-.158 1.834-.158v-2.022h-1.03c-1.017 0-1.332-.632-1.332-1.28v-1.536h2.261l-0.289-2.625z'/>
-            </svg>
-            Facebook
-        </button>
-
-        <button class='pinterest-link' onclick='window.open("#", "_blank")'>
-            <!-- Pinterest Icon -->
-            <svg fill='#BD081C' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'>
-                <path d='M12 0C5.373 0 0 5.373 0 12c0 4.945 2.941 9.204 7.125 11.125-.1-.938-.188-2.373.041-3.396.206-.875 1.344-5.558 1.344-5.558s-.344-.688-.344-1.708c0-1.604.938-2.8 2.103-2.8 0.988 0 1.466.744 1.466 1.637 0 1.002-.641 2.506-.975 3.901-.281 1.129.594 2.051 1.688 2.051 2.025 0 3.588-2.134 3.588-5.2 0-2.713-1.95-4.605-4.741-4.605-3.25 0-5.2 2.438-5.2 4.95 0 .969.375 2.012.844 2.581.094.119.106.225.075.356-.081.331-.275 1.05-.313 1.194-.031.144-.156.181-.306.106-1.031-.5-1.688-2.012-1.688-3.319 0-2.725 1.975-5.494 5.875-5.494 3.088 0 5.45 2.262 5.45 4.7 0 2.981-1.575 5.325-3.931 5.325-.775 0-1.506-.4-1.756-.875l-.475 1.806c-.169.662-.625 1.487-.938 1.994.706.219 1.45.338 2.225.338 4.831 0 8.575-3.831 8.575-9.006C24 5.373 18.627 0 12 0'/>
-            </svg>
-            Pinterest
-        </button>
-    </div>
-</div>
-<style> 
 <style>
+
 /* Define the special color */
 .special-color {
     color: #FF5733; /* Change this to your desired color */
@@ -175,26 +285,14 @@ https://templatemo.com/tm-557-grad-school
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
-          <source src="assets/Studyfps.mp4" type="video/mp4" />
+          <source src="assets/images/Studyfps.mp4" type="video/mp4" />
       </video>
 
       <div class="video-overlay header-text">
           <div class="caption">
               <h6>For IIT PREPERATION</h6>
               <h2><em>Your</em> Classroom</h2>
-              <div class="main-button">
-                  <div class="scroll-to-section"><a href="#section2">Know more</a></div><br>
-                 <a class='whats-chat' href='https://wa.me/7838090428?text=Experience %20 the %20 power %20 of %20 our%20 education%20 services. %20 We&apos;re %20 here %20 to %20 boost%20 your %20 knowledge, %20 engage %20 your, %20 self%20 and %20 be %20 succed %20 in%20 your %20 life %20 in%20 the %20 world of education  !' target='_blank'>
-            <!-- WhatsApp Icon -->
-            <svg viewbox='0 0 512 512'>
-                <rect fill='#fff' height='512' rx='15%' width='512'/>
-                <path d='M123 393l14-65a138 138 0 1150 47z' fill='#fff' stroke='#25d366' stroke-width='26'/>
-                <path d='M308 273c-3-2-6-3-9 1l-12 16c-3 2-5 3-9 1-15-8-36-17-54-47-1-4 1-6 3-8l9-14c2-2 1-4 0-6l-12-29c-3-8-6-7-9-7h-8c-2 0-6 1-10 5-22 22-13 53 3 73 3 4 23 40 66 59 32 14 39 12 48 10 11-1 22-10 27-19 1-3 6-16 2-18' fill='#25d366'/>
-                <!-- WhatsApp Text -->
-                <span><i class='fab fa-whatsup'/> </span>
-            </svg>
-        </a>
-              </div>
+              
           </div>
       </div>
   </section>
@@ -211,7 +309,7 @@ https://templatemo.com/tm-557-grad-school
                 <h4><i class="fa fa-pencil"></i>All Courses</h4>
               </div>
               <div class="content-hide">
-                <p>Premium IIT coaching curriculum covering Regular Course,Target Course and Crash Course  meticulously designed for Aspirants.</p>
+                <p align="justify">Premium IIT Coaching Curriculum covering Regular Course,Target Course and Crash Course  meticulously designed for Aspirants.</p>
                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
                 <div class="scroll-to-section"><a href="#section2">More Info.</a></div>
             </div>
@@ -225,7 +323,7 @@ https://templatemo.com/tm-557-grad-school
                 <h4><i class="fa fa-graduation-cap"></i>Virtual Class</h4>
               </div>
               <div class="content-hide">
-                <p>Premium IIT coaching offering interactive lectures, real-time discussions, and personalized guidance, fostering effective remote education for diverse learners</p>
+                <p align="justify">Premium IIT coaching offering interactive lectures, real-time discussions, and personalized guidance.</p>
                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
                 <div class="scroll-to-section"><a href="#section3">Details</a></div>
             </div>
@@ -240,7 +338,7 @@ https://templatemo.com/tm-557-grad-school
                 <h4><i class="fa fa-book"></i>Real Meeting</h4>
               </div>
               <div class="content-hide">
-                <p> In-person gatherings fostering collaborative learning, peer interaction, and direct mentorship, enhancing the IIT coaching experience through hands-on engagement and personalized support</p>
+                <p align="justify"> In-person gatherings fostering collaborative learning, peer interaction, and direct mentorship, enhancing the IIT coaching experience </p>
                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
                 <div class="scroll-to-section"><a href="#section4">Read More</a></div>
             </div>
@@ -251,6 +349,174 @@ https://templatemo.com/tm-557-grad-school
     </div>
   </section>
 
+
+
+
+<body onload="google_translate()">
+    <div id="translation"></div>
+
+    <!-- Your other page content goes here -->
+    
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=google_translate"></script>
+    <script>
+        function google_translate() {
+            var opt = {
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                pageLanguage: "en",
+            };
+            new google.translate.TranslateElement(opt, "translation");
+        }
+
+        addEventListener("load", function () {
+            if (document.querySelector(".goog-te-menu-frame")) {
+                document.getElementById("translation").addEventListener("click", function () {
+                    if (this.id === "translation") scrollableLanguagesList();
+                });
+                addEventListener("resize", function () {
+                    if ("none" !== document.querySelector(".goog-te-menu-frame").style.display) scrollableLanguagesList();
+                });
+            }
+        });
+
+        function scrollableLanguagesList() {
+            var iframe = document.querySelector(".goog-te-menu-frame"),
+                doc = iframe.contentWindow.document,
+                div = doc.body.children[0],
+                table = div.children[0],
+                width = div.dataset.width || parseInt(div.style.width),
+                rect,
+                diff;
+
+            if (!div.dataset.width) div.dataset.width = width;
+
+            if (innerWidth < width) {
+                rect = table.getBoundingClientRect();
+                width = rect.right - rect.left;
+                diff = width - innerWidth;
+
+                div.style.width = width - diff - 24 + "px";
+                div.style.padding = "4px 0 1em 4px";
+                div.style.overflowX = "scroll";
+            } else {
+                div.style.width = "auto";
+                div.style.padding = "4px";
+                div.style.overflowX = "visible";
+            }
+
+            rect = div.getBoundingClientRect();
+            iframe.style.width = rect.right - rect.left + "px";
+            iframe.style.height = rect.bottom - rect.top + "px";
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            translationTooltipsDisable();
+        });
+
+        function translationTooltipsDisable() {
+            _tipon = function () {
+                /*Don't display the tooltip*/
+            };
+            _tipoff = function () {
+                /*Don't hide the tooltip*/
+            };
+        }
+    </script>
+</body>
+<style>
+/* General reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Container for the translation widget */
+#translation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust as needed */
+    margin-bottom: 0;
+}
+
+/* Styling for the Google Translate widget */
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+body {
+    top: 0px !important;
+}
+
+/* Custom styling for the translation button */
+.goog-te-gadget-simple {
+    background-color: #007bff !important; /* Button color */
+    border: 2px solid #0056b3 !important; /* Border color */
+    border-radius: 4px;
+    color: white !important;
+    font-size: 16px !important;
+    padding:5px 10px !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.goog-te-gadget-simple:hover {
+    background-color: #0056b3 !important; /* Hover color */
+    border-color: #003f7f !important; /* Hover border color */
+}
+
+/* Customize the translation select box */
+.goog-te-gadget-simple .goog-te-menu-value {
+    color: white !important;
+}
+
+/* Hide the Google Translate logo */
+.goog-te-gadget img {
+    display: none !important;
+}
+
+/* Style the translation options when the user clicks on the widget */
+.goog-te-menu-frame {
+    width: 20% !important;
+    height: auto !important;
+    max-width: 30px;
+    border: none !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the scrollable language list */
+.goog-te-menu2 {
+    max-height: 10px !important;
+    overflow-y: auto !important;
+    border: none !important;
+    padding: 1px !important;
+}
+
+/* Individual language options */
+.goog-te-menu2-item {
+    padding: 5px 10px !important;
+    cursor: pointer;
+}
+
+.goog-te-menu2-item-selected {
+    background-color: #ddd !important;
+}
+
+/* Responsive iframe styling */
+iframe.goog-te-menu-frame {
+    max-width: 20% !important;
+    height: auto !important;
+}
+</style>
   <section class="section why-us" data-section="section2">
     <div class="container">
       <div class="row">
@@ -274,8 +540,8 @@ https://templatemo.com/tm-557-grad-school
                   </div>
                   <div class="col-md-6">
                     <h4>Expertise Insight</h4>
-                    <p>Receive guidance from seasoned professionals who provide deep knowledge and strategic advice tailored to your learning needs</p>
-                     <p>Gain invaluable insights and tips from experts who have a thorough understanding of the subject matter and can guide you towards success.</p>
+                    <p align="justify">Receive guidance from seasoned professionals who provide deep knowledge and strategic advice tailored to your learning needs</p>
+                     <p align="justify">Gain invaluable insights and tips from experts who have a thorough understanding of the subject matter and can guide you towards success.</p>
                   </div>
                 </div>
               </article>
@@ -286,8 +552,8 @@ https://templatemo.com/tm-557-grad-school
                   </div>
                   <div class="col-md-6">
                     <h4>Cutting-edge Materials</h4>
-                    <p>Access high-quality resources and up-to-date study materials designed to enhance your understanding and keep you ahead in your studies.</p> 
-                    <p>Explore innovative learning materials and resources that are constantly updated to align with the latest curriculum and examination trends..</p>
+                    <p align="justify">Access high-quality resources and up-to-date study materials designed to enhance your understanding and keep you ahead in your studies.</p> 
+                    <p align="justify">Explore innovative learning materials and resources that are constantly updated to align with the latest curriculum and examination trends..</p>
                   </div>
                 </div>
               </article>
@@ -298,8 +564,8 @@ https://templatemo.com/tm-557-grad-school
                   </div>
                   <div class="col-md-6">
                     <h4>Tailored Assistance</h4>
-                    <p>Benefit from personalized support and mentoring, ensuring that your learning journey is customized to address your unique strengths and challenges effectively.</p>
-                     <p>Receive individualized attention and guidance, empowering you to overcome obstacles and reach your academic goals with confidence..</p>
+                    <p align="justify">Benefit from personalized support and mentoring, ensuring that your learning journey is customized to address your unique strengths and challenges effectively.</p>
+                     <p align="justify">Receive individualized attention and guidance, empowering you to overcome obstacles and reach your academic goals with confidence..</p>
                   </div>
                 </div>
               </article>
@@ -316,7 +582,7 @@ https://templatemo.com/tm-557-grad-school
         <div class="col-md-7 col-xs-12">
           <div class="continer centerIt">
             <div>
-              <h4>Take <em>any online course</em> and win $326 for your next class</h4>
+              <h4>Sign Up <em>any  course</em> and get Discount immmediately</h4>
               <div class="counter">
 
                 <div class="days">
@@ -413,10 +679,10 @@ https://templatemo.com/tm-557-grad-school
         </div>
         <div class="owl-carousel owl-theme">
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="Course #1">
+            <img src="https://plus.unsplash.com/premium_photo-1705267936187-aceda1a6c1a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm91bmRhdGlvbiUyMGNsYXNzZXN8ZW58MHx8MHx8fDA%3D" alt="Course #1">
             <div class="down-content">
               <h4>Regular Classes</h4>
-              <p>Structured sessions held on a recurring basis, covering essential topics systematically over a period of time</p>
+              
               <div class="author-image">
                 <img src="assets/images/author-01.png" alt="Author 1">
               </div>
@@ -426,10 +692,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="Course #2">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JhZHVhdGUlMjBjbGFzc3xlbnwwfHwwfHx8MA%3D%3D" alt="Course #2">
             <div class="down-content">
               <h4>Crash Courses</h4>
-              <p>Intensive programs designed to cover key concepts in a condensed timeframe, ideal for last-minute preparation.</p>
+              
               <div class="author-image">
                 <img src="assets/images/author-02.png" alt="Author 2">
               </div>
@@ -439,10 +705,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="Course #3">
+            <img src="https://media.istockphoto.com/id/1297372604/photo/young-college-girl-student-writing-notes-by-looking-into-mobile-phone-during-online-class.webp?b=1&s=612x612&w=0&k=20&c=sjhfimNVRZqQZ-yl9FUamhrwuy0bu9jy7I3uXJVRBPs=" alt="Course #3">
             <div class="down-content">
               <h4>Online Classes</h4>
-              <p>Virtual learning platforms offering flexibility and accessibility, allowing students to attend lectures </p>
+              
               <div class="author-image">
                 <img src="assets/images/author-03.png" alt="Author 3">
               </div>
@@ -452,10 +718,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="Course #4">
+            <img src="https://media.istockphoto.com/id/1439722443/photo/young-woman-listening-to-university-lecture.webp?b=1&s=612x612&w=0&k=20&c=cfvat9sItmegM8MsJPWnnpDVVg25VmA2NV7PfYU17vU=" alt="Course #4">
             <div class="down-content">
               <h4>Mock Test Series</h4>
-              <p>Practice sessions simulating the helping students their readiness and identify weak areas for improvement.</p>
+              
               <div class="author-image">
                 <img src="assets/images/author-04.png" alt="Author 4">
               </div>
@@ -465,10 +731,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
+            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGRvdWJ0JTIwY2xlYXJpbmclMjBzZXNzaW9ufGVufDB8fDB8fHww" alt="">
             <div class="down-content">
               <h4>Doubt Clearing Sessions</h4>
-              <p>Interactive sessions focused on addressing students'ensuring thorough understanding .</p>
+              
               <div class="author-image">
                 <img src="assets/images/author-05.png" alt="">
               </div>
@@ -478,10 +744,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
+            <img src="https://plus.unsplash.com/premium_photo-1661456103913-8988b2e34769?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b25lJTIwdG8lMjBvbmUlMjB0dXRvcmluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="">
             <div class="down-content">
               <h4>One-on-One Tutoring</h4>
-              <p>Personalized coaching sessions tailored to individual learning styles and needs, providing targeted support.</p>
+              
               <div class="author-image">
                 <img src="assets/images/author-01.png" alt="">
               </div>
@@ -491,10 +757,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="">
+            <img src="https://plus.unsplash.com/premium_photo-1682787494765-44d02d12f5be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZvdW5kYXRpb24lMjBjb3Vyc2UlMjBncmFkdWF0ZSUyMGNsYXNzfGVufDB8fDB8fHww" alt="">
             <div class="down-content">
               <h4>Foundation Courses</h4>
-              <p>Designed to strengthen basic concepts in subjects like mathematics, physics, and chemistry</p>
+             
               <div class="author-image">
                 <img src="assets/images/author-02.png" alt="">
               </div>
@@ -504,10 +770,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="">
+            <img src="https://plus.unsplash.com/premium_photo-1681248156499-f664207b679e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cml2aXNpb24lMjAlMjBncmFkdWF0ZSUyMGNsYXNzfGVufDB8fDB8fHww" alt="">
             <div class="down-content">
               <h4>Revision Classes</h4>
-              <p>For revisiting previously covered topics, reinforcing understanding, and addressing any gaps in knowledge to ensure preparation</p>
+              
               <div class="author-image">
                 <img src="assets/images/author-03.png" alt="">
               </div>
@@ -517,10 +783,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="">
+            <img src="https://plus.unsplash.com/premium_photo-1723485812092-e73a27de830f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8UHJhY3RpY2UlMjBXb3Jrc2hvcHN8ZW58MHx8MHx8fDA%3D" alt="">
             <div class="down-content">
               <h4>Practice Workshops</h4>
-              <p>Hands-on workshops providing opportunities for students to practice problem-solving techniques,with strategies</p>
+              
               <div class="author-image">
                 <img src="assets/images/author-04.png" alt="">
               </div>
@@ -530,10 +796,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
+            <img src="https://images.unsplash.com/photo-1532619187608-e5375cab36aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHN0cmF0ZWd5JTIwc2Vzc2lvbnMlMjBjbGFzc3xlbnwwfHwwfHx8MA%3D%3D" alt="">
             <div class="down-content">
               <h4>Strategy Sessions</h4>
-              <p>Sessions dedicated to discussing exam strategies, time management techniques, and effective study habits empowering students </p>
+              
               <div class="author-image">
                 <img src="assets/images/author-05.png" alt="">
               </div>
@@ -543,10 +809,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
+            <img src="https://images.unsplash.com/photo-1511629091441-ee46146481b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fEd1ZXN0JTIwTGVjdHVyZXMlMjBjbGFzc3xlbnwwfHwwfHx8MA%3D%3D" alt="">
             <div class="down-content">
               <h4>Guest Lectures</h4>
-              <p>Invited talks by industry experts, alumni, or renowned academicians offering insights, inspiration</p>
+              
               <div class="author-image">
                 <img src="assets/images/author-01.png" alt="">
               </div>
@@ -568,9 +834,9 @@ https://templatemo.com/tm-557-grad-school
           <div class="left-content">
             <span>our presentation is for you</span>
             <h4>Watch the video to learn more <em>about Premium IIT Coaching</em></h4>
-            <p>"Unlock success with expert insights! Watch our video series to gain valuable tips and strategies for cracking the IIT entrance exam, guiding you towards academic excellence and achieving your dreams." You can fill Form<a rel="nofollow" href="schedule.html" target="_parent">Schedule A Demo</a> to know More.
+            <p align="justify">"Unlock success with expert insights! Watch Our video series to gain valuable tips and strategies for cracking the IIT entrance exam, guiding you towards academic excellence and achieving your dreams." You can fill Form to Schedule A Demo to know More.
             <br><br>"Empower your IIT journey by watching our comprehensive video guide, equipping you with the tools and knowledge needed to ace the exam."</p>
-            <div class="main-button"><a rel="nofollow" href="schedule.html" target="_parent">Schedule A Demo</a></div>
+            <!---<div class="main-button"><a rel="nofollow" href="faq.html" target="_parent">FAQ</a></div>--->
           </div>
         </div>
         <div class="col-md-6">
@@ -659,15 +925,431 @@ https://templatemo.com/tm-557-grad-school
       </div>
     </div>
   </section>
+<section class="section contact" data-section="section7">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Schedule A Demo</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+        
+        <!-- Do you need a working HTML contact-form script?
+                	
+                    Please visit https://templatemo.com/contact page -->
+                    
+          <form id="contactForm-2">
+            <div class="row">
+              <div class="col-md-6">
+                  <fieldset>
+                    <input name="Student Name" type="text" class="form-control" id="name" placeholder="Student Name" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input name="Student Mobile Number" type="text" class="form-control" id="mobile" placeholder="Student Number" required="">
+                  </fieldset>
+                </div>
+               <div class="col-md-6">
+                  <fieldset>
+                    <input name="Parent Name" type="text" class="form-control" id="name" placeholder="Parent Name" required="">
+                  </fieldset>
+                </div>
+               <div class="col-md-6">
+                  <fieldset>
+                    <input name="Parent Mobile Number" type="text" class="form-control" id="Mobile" placeholder="Parent Number" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input name="Parent Email" type="text" class="form-control" id="email" placeholder="Parent Email" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input name="Parent Profession" type="text" class="form-control" id="profession" placeholder="Parent Profession" required="">
+                  </fieldset>
+                </div>
+               <div class="col-xl-6">
+                    <input type="Date" class="form-control py-3 border-primary bg-black" name="date">
+                </div>
+              <div class="col-xl-6">
+                  <input type="Time" class="form-control col-sm-10 col-sm-2 col-form-label" name="time">
+                </div>
+               <div class="col-md-6">
+                    <select  aria-label="Gender" name="Course">
+                        <option selected>Course Which You Want</option>
+                        <option value="Online Classes">Online Classes</option>
+                        <option value="Mock Test Series">Mock Test Series</option>
+                        <option value="Doubt Clearing Sessions">Doubt Clearing Sessions</option> 
+                        <option value="Online Classes">One to One Tutoring</option>
+                        <option value="Foundation Courses">Foundation Courses</option>
+                        <option value="Revision Classes">Revision Classes</option>
+                         <option value="Prcatise Workshops">Prcatise Workshops</option>
+                        <option value="Foundation Courses">Foundation Courses</option>
+                        <option value="Strategy Lessons">Strategy Lessons</option>
+                        <option value="Guest Lectures">Guest Lectures</option>
+                    </select>
+                </div><br></br>
+               <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" name="Address" id="subject" placeholder="Your Address">
+                                            
+                                        </div>
+                                    </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="button">Send Message Now</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+<script>
+    // JavaScript to handle form submission
+    document.getElementById("contactForm-2").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const formData = new FormData(event.target);
+        const email = 'kwagaecom@gmail.com'; // Your Gmail address
+        const subject = 'Schedule A Form Submission'; // Subject for the email
+
+        let message = "Schedule Details:\n\n";
+
+        // Iterate over form data and append to message
+        for (const [key, value] of formData.entries()) {
+            message += `${key}: ${value}\n`;
+        }
+
+        // Create a "mailto" URL with the pre-filled email subject and body
+        const mailtoURL = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+
+        // Open the default email client with the pre-filled email
+        window.location.href = mailtoURL;
+
+        // You can also display a success message or redirect the user to a thank-you page
+    });
+</script>
+        <div class="col-md-6">
+          <div id="map">
+            <img class="rounded w-100" style="height: 500px;" src="https://images.unsplash.com/photo-1560264357-8d9202250f21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2Nob29sJTIwb2ZmaWNlfGVufDB8fDB8fHww" alt="Map Image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap");
+@mixin mQ($rem) {
+  @media screen and (min-width: $rem) {
+    @content;
+  }
+}
+
+$position: -0.375rem;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background: url(https://plus.unsplash.com/premium_photo-1661901004198-0771cc6d5a53?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvYWNoaW5nJTIwY2xhc3MlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+
+  i {
+    color: #fff;
+    font-size: clamp(0.9rem, 0.825rem + 0.3vw, 1.2rem);
+
+    &:hover {
+      color: #f2709c;
+    }
+  }
+}
+
+section {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding-block: min(20vh, 6rem);
+  text-align: center;
+  width: calc(min(90rem, 90%));
+  margin-inline: auto;
+
+  span,
+  p,
+  h2,
+  h3 {
+    letter-spacing: 0.035rem;
+  }
+
+  p {
+    line-height: 1.6;
+    color: #a3a3a3;
+    max-width: 50rem;
+    margin: 0 auto;
+    font-size: clamp(0.9rem, 0.825rem + 0.3vw, 1.2rem);
+  }
+
+  .bg-watermark {
+    color: #1f1f1f;
+    font-size: clamp(6rem, 1.3333rem + 14.9333vw, 20rem);
+    font-weight: 800;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+   
+    user-select: none;
+    letter-spacing: 0.5rem;
+  }
+
+  span {
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.2rem;
+    color: #a3a3a3;
+  }
+
+  h2 {
+    font-size: clamp(3.5rem, 3rem + 1.6vw, 5rem);
+    margin-top: -0.625rem;
+    color: #fff;
+  }
+
+  .cards {
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(12rem, 100%), 1fr));
+    gap: 2rem;
+
+    @include mQ(51rem) {
+      gap: 0;
+      padding-bottom: 2.5rem;
+    }
+
+    .card {
+      position: relative;
+      cursor: pointer;
+
+      h3,
+      p {
+        text-transform: capitalize;
+      }
+
+      h3 {
+        font-size: clamp(1rem, 0.9167rem + 0.2667vw, 1.25rem);
+        font-weight: 400;
+        color: #f6f6f6;
+      }
+
+      p {
+        font-size: clamp(0.85rem, 0.75rem + 0.32vw, 1.15rem);
+        letter-spacing: 0.12rem;
+        font-weight: 300;
+        max-width: 100%;
+      }
+
+      &::before {
+        position: absolute;
+        content: "";
+        width: 5rem;
+        height: 6.25rem;
+        z-index: 0;
+        transition: 0.3s ease-in-out;
+       
+        top: $position;
+        left: $position;
+      }
+
+      &::after {
+        position: absolute;
+        inset: 0;
+        content: "";
+        width: 100%;
+        height: 100%;
+      
+      }
+
+      img {
+        filter: grayscale(100%);
+        transition: 0.5s ease;
+      }
+
+      &-content {
+        position: absolute;
+        bottom: 0;
+        z-index: 99;
+        left: 0;
+        color: #fff;
+        width: 100%;
+        padding: 1.875rem 1.25rem;
+        text-align: center;
+
+        ul {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 0.625rem;
+          margin-top: 1.25rem;
+        }
+      }
+
+      &:hover img {
+        filter: grayscale(0%);
+      }
+
+      &:hover::before {
+        transform: scale(1.03);
+      }
+    }
+    .card:nth-child(1) {
+      &::before {
+        top: $position;
+        left: $position;
+      }
+    }
+    .card:nth-child(2) {
+      @include mQ(31.25rem) {
+        transform: translatey(15%);
+      }
+
+      &::before {
+        bottom: $position;
+        left: $position;
+        top: auto;
+      }
+    }
+    .card:nth-child(3) {
+      &::before {
+        top: $position;
+        left: $position;
+      }
+    }
+  }
+}
+</style>
+
+
+<section class="section contact" data-section="section8">
+  <span>Get to know the passionate minds behind our success</span>
+  <h2>Meet Our Faculty!</h2>
+  <p>Discover the talent and dedication driving our mission forward—Meet Our Faculty</p>
+  <span class="bg-watermark">team</span>
+  <div class="cards">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Franklin Carlson">
+      <div class="card-content">
+        <h3>Franklin carlson</h3>
+        <p>UX Designer</p>
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Antonia Moore">
+      <div class="card-content">
+        <h3>Antonia moore</h3>
+        <p>Product designer</p>
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Travis Lynch">
+      <div class="card-content">
+        <h3>Travis lynch</h3>
+        <p>Web developer</p>
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br> <br> <br>
+<h5 align="center" style="color: green; font-size: 24px; margin-bottom: 20px;">Frequently Asked Questions</h5>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<section class="section contact" data-section="section9">
+  <div class="accordion" id="accordionExample" style="max-width: 600px; margin: 0 auto; padding: 20px;">
+    <div class="accordion-item">
+      <h5 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          What is the duration of the IIT JEE preparation course?
+        </button>
+      </h5>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Our IIT JEE preparation course is typically spread over 2 years, starting from Class 11. We also offer a 1-year crash course for students in Class 12.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h5 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          What is the success rate of your students in JEE exams?
+        </button>
+      </h5>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Our coaching center has a proven track record with over 75% of our students clearing JEE Mains, and many securing top ranks in JEE Advanced.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h5 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Do you provide study materials and mock tests?
+        </button>
+      </h5>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Yes, we provide comprehensive study materials, including books, practice papers, and online resources. Regular mock tests are also conducted to evaluate students' progress.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h5 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          What are the class timings and batch options?
+        </button>
+      </h5>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          We offer both morning and evening batches to accommodate school timings. Classes are held 5 days a week, with additional doubt-clearing sessions on weekends.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</section>
 
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <p><i class="fa fa-copyright"></i> Copyright 2020 by Premium IIT Coaching 
+          <p><i class="fa fa-copyright"></i> All rights Reserved
           
-           | Design: <a href="https://templatemo.com" rel="sponsored" target="_parent">Designed By</a><br>
-           Distributed By: <a href="https://www.kwaga.in/" rel="sponsored" target="_blank">Kwaga Team</a>
+          <!--- | Design: <a href="https://templatemo.com" rel="sponsored" target="_parent">Designed By</a><br>
+           Distributed By: <a href="https://www.kwaga.in/" rel="sponsored" target="_blank">Kwaga Team</a>--->
           
           </p>
         </div>
@@ -675,6 +1357,142 @@ https://templatemo.com/tm-557-grad-school
     </div>
   </footer>
 
+<style>
+    .wa__btn_popup {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .wa__btn_popup .wa__btn_popup_icon {
+      width: 50px;
+      height: 50px;
+      background-color: #25D366;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    }
+
+    .wa__popup_chat_box {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      width: 300px;
+      display: none;
+      z-index: 1000;
+      border-radius: 0.25rem;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    }
+
+    .wa__popup_chat_box .wa__popup_heading {
+      background-color: #28a745;
+      color: #f8f9fa;
+      padding: 1rem 1.5rem;
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+    }
+
+    .wa__popup_chat_box .wa__popup_content {
+      
+      margin: 1.5rem;
+    }
+
+    .wa__popup_chat_box .wa__popup_content_item {
+      margin-bottom: 0.5rem;
+    }
+
+    .wa__popup_chat_box .wa__popup_avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .wa__popup_chat_box .wa__popup_txt {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+
+    .wa__popup_chat_box .wa__popup_txt .wa__member_name {
+      font-weight: bold;
+    }
+
+    .wa__popup_chat_box .wa__popup_txt .wa__member_duty {
+      color: #6c757d;
+    }
+
+    .wa__popup_chat_box a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+
+  <div class="wa__btn_popup">
+    <div class="wa__btn_popup_icon">
+      <i class="fa fa-2x fa-comments"></i>
+    </div>
+  </div>
+
+  <div class="wa__popup_chat_box wa__pending wa__lauch">
+    <div class="wa__popup_heading">
+      <div class="fw-bold wa__popup_title">Start a Conversation</div>
+      <div class="small wa__popup_intro">
+        Hi! Click one of our members below to chat on <strong>WhatsApp ;)</strong>
+      </div>
+    </div>
+
+   <div class="wa__popup_content wa__popup_content_left">
+       <!--<div class="small text-secondary wa__popup_notice">
+        Tim kami biasanya membalas dalam hitungan menit
+      </div>-->
+
+      <div class="wa__popup_content_list">
+        <!-- Member 1 -->
+        <div class="wa__popup_content_item">
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=7838090428" class="rounded wa__stt wa__stt_online">
+            <div class="wa__popup_avatar" style="background-image: url('#');">
+            </div>
+            <div class="wa__popup_txt">
+              <div class="wa__member_name">Sohan kumar</div>
+              <div class="wa__member_duty">Admin</div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Member 2 -->
+        <div class="wa__popup_content_item">
+          <a target="_blank" href="https://web.whatsapp.com/send?phone=8797529661" class="rounded wa__stt wa__stt_online">
+            <div class="wa__popup_avatar" style="background-image: url('#');">
+            </div>
+            <div class="wa__popup_txt">
+              <div class="wa__member_name">Rohan kumar</div>
+              <div class="wa__member_duty">Customer Representative</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- /.wa__popup_content_list -->
+    </div>
+    <!-- /.wa__popup_content -->
+  </div>
+
+  <script>
+    document.querySelector('.wa__btn_popup').addEventListener('click', function() {
+      const chatBox = document.querySelector('.wa__popup_chat_box');
+      if (chatBox.style.display === 'none' || chatBox.style.display === '') {
+        chatBox.style.display = 'block';
+      } else {
+        chatBox.style.display = 'none';
+      }
+    });
+  </script>
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -737,5 +1555,222 @@ https://templatemo.com/tm-557-grad-school
           checkSection();
         });
     </script>
+<body onload="google_translate()">
+    <div id="translation"></div>
+
+    <!-- Your other page content goes here -->
+    
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=google_translate"></script>
+    <script>
+        function google_translate() {
+            var opt = {
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                pageLanguage: "en",
+            };
+            new google.translate.TranslateElement(opt, "translation");
+        }
+
+        addEventListener("load", function () {
+            if (document.querySelector(".goog-te-menu-frame")) {
+                document.getElementById("translation").addEventListener("click", function () {
+                    if (this.id === "translation") scrollableLanguagesList();
+                });
+                addEventListener("resize", function () {
+                    if ("none" !== document.querySelector(".goog-te-menu-frame").style.display) scrollableLanguagesList();
+                });
+            }
+        });
+
+        function scrollableLanguagesList() {
+            var iframe = document.querySelector(".goog-te-menu-frame"),
+                doc = iframe.contentWindow.document,
+                div = doc.body.children[0],
+                table = div.children[0],
+                width = div.dataset.width || parseInt(div.style.width),
+                rect,
+                diff;
+
+            if (!div.dataset.width) div.dataset.width = width;
+
+            if (innerWidth < width) {
+                rect = table.getBoundingClientRect();
+                width = rect.right - rect.left;
+                diff = width - innerWidth;
+
+                div.style.width = width - diff - 24 + "px";
+                div.style.padding = "4px 0 1em 4px";
+                div.style.overflowX = "scroll";
+            } else {
+                div.style.width = "auto";
+                div.style.padding = "4px";
+                div.style.overflowX = "visible";
+            }
+
+            rect = div.getBoundingClientRect();
+            iframe.style.width = rect.right - rect.left + "px";
+            iframe.style.height = rect.bottom - rect.top + "px";
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            translationTooltipsDisable();
+        });
+
+        function translationTooltipsDisable() {
+            _tipon = function () {
+                /*Don't display the tooltip*/
+            };
+            _tipoff = function () {
+                /*Don't hide the tooltip*/
+            };
+        }
+    </script>
+</body>
+<style>
+/* General reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Container for the translation widget */
+#translation {
+    margin-bottom: 0px;
+}
+
+/* Styling for the Google Translate widget */
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+body {
+    top: 0px !important;
+}
+
+/* Custom styling for the translation button */
+.goog-te-gadget-simple {
+    background-color: #007bff !important; /* Button color */
+    border: 2px solid #0056b3 !important; /* Border color */
+    border-radius: 4px;
+    color: white !important;
+    font-size: 16px !important;
+    padding:5px 10px !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.goog-te-gadget-simple:hover {
+    background-color: #0056b3 !important; /* Hover color */
+    border-color: #003f7f !important; /* Hover border color */
+}
+
+/* Customize the translation select box */
+.goog-te-gadget-simple .goog-te-menu-value {
+    color: white !important;
+}
+
+/* Hide the Google Translate logo */
+.goog-te-gadget img {
+    display: none !important;
+}
+
+/* Style the translation options when the user clicks on the widget */
+.goog-te-menu-frame {
+    width: 20% !important;
+    height: auto !important;
+    max-width: 30px;
+    border: none !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the scrollable language list */
+.goog-te-menu2 {
+    max-height: 10px !important;
+    overflow-y: auto !important;
+    border: none !important;
+    padding: 1px !important;
+}
+
+/* Individual language options */
+.goog-te-menu2-item {
+    padding: 5px 10px !important;
+    cursor: pointer;
+}
+
+.goog-te-menu2-item-selected {
+    background-color: #ddd !important;
+}
+
+/* Responsive iframe styling */
+iframe.goog-te-menu-frame {
+    max-width: 20% !important;
+    height: auto !important;
+}
+</style>
+<style>
+    .amazon-product {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .amazon-product img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+        border-radius: 4px; /* Increased the border-radius slightly for a smoother edge */
+        padding: 3px; /* Reduced the padding to make the box smaller */
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1); /* Slightly reduced the shadow */
+        opacity: 0;
+        transition: opacity 10s ease-in;
+    }
+
+    .amazon-product a {
+        display: inline-block;
+        margin-top: 5px;
+        font-size: 16px;
+        color: #000;
+        text-decoration: none;
+        background-color: #ff9900;
+        padding: 5px 10px;
+        border-radius: 4px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .amazon-product a:hover {
+        background-color: #e68a00;
+    }
+
+    /* Add the animation effect */
+    .amazon-product img.fade-in {
+        opacity: 1;
+    }
+</style>
+
+<div class="amazon-product">
+    <a href="https://www.amazon.in/Studynlearn-Interactive-Multitouch-Teaching-Coaching/dp/B0C7499NC7?crid=2GOWOW78098BN&dib=eyJ2IjoiMSJ9.H_6boQ8l_6X2fXR-spVxTW_m2Hli7ob96b_8dyyIrmFlYSCmdHwR-BLCEqU9YkU_jV0yVjlWEHdabokROcZMc5NQQQp2Ekz_93BidlD304TxGMycPFitblbjANC0phzWZLhYwGtmw5EB7m5-z7tjahDvsH5M4ZjxF_0Hp78h2b6GZz_460dFCeNQzPefb1TUrXClqjOnI76YPefgQgyjHuJuRmEJG63Neu25GZAK0gk.wQ2AyNgTHmkCUpik3cSXX1s4hmvxOLkTLorwvQRfPVI&dib_tag=se&keywords=digital%2Bwhite%2Bboard%2Bfor%2Bteaching&qid=1724052870&sprefix=digital%2Bwhite%2Caps%2C1052&sr=8-3&th=1&linkCode=ll1&tag=kwagawebdev-21&linkId=4d98245ea4baa81d0469b79d7c1c6c79&language=en_IN&ref_=as_li_ss_tl" target="_blank">
+        <img id="productImage" src="https://m.media-amazon.com/images/I/51Py6TCP25L._SL320_.jpg" alt="Amazing Product" />
+        <h5>Studynlearn 55 Inch Ultra 4K HD </h5>
+        <br />
+        Buy Now on Amazon
+    </a>
+</div>
+
+<script>
+    window.onload = function() {
+        setTimeout(function() {
+            document.getElementById('productImage').classList.add('fade-in');
+        }, 10); // Starts the animation immediately
+    }
+</script>
+
 </body>
 </html>
