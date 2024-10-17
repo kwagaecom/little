@@ -8,10 +8,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-   <link href="assets/images/favicon-32x32.png" rel="icon">
+    <link href="img/favicon-32x32.png" rel="icon">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <title>Coaching Class-Be Educate</title>
+    <title>Coaching Class</title>
     
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,97 +34,47 @@ https://templatemo.com/tm-557-grad-school
 
    
   <!--header-->
-<header class="main-header clearfix" role="header">
-   <div class="header">
-       <div class="logo">
-           <a href="#"><em>Premium</em> Coaching</a>
-       </div>
+  <header class="main-header clearfix" role="header">
+    <div class="logo">
+      <a href="#"><em>Premium</em> Coaching</a>
+    </div>
+    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+        <li><a href="#home">Home</a></li>
+         <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+          
+        <li><a href="#why">Why</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#course">Course</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#schedule">Schedule </a></li>
 
-       <!-- Social Icons -->
-       <div class="social-icons">
-           <a href="#"><i class="fab fa-facebook"></i></a>
-           <a href="#"><i class="fab fa-twitter"></i></a>
-           <a href="#"><i class="fab fa-linkedin"></i></a>
-           <a href="#"><i class="fab fa-instagram"></i></a>
-       </div>
 
-       <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
-   </div>
-
-   <nav id="menu" class="main-nav" role="navigation">
-       <ul class="main-menu">
-           <li><a href="#section1">Home</a></li>
-           <li><a href="#section2">About </a></li>
-           <li><a href="#section4">Courses</a></li>
-           
-           <!-- Logo Image Between Courses and Service -->
-           <li class="logo-item">
-               <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuHL1RLgrwLDdGKcuEvrCLdrOh-_4HtdanKLTkmBTBSGPuflOlcQuQ6GH96wmlRJOzunVraObbcrMqiaJKFG0FQKCuYQM4FFKtQQVx7Crfice_TJD-uoHkklXK-pMYFRX7Pf4xgz6zKFDFzTakvZz11e8evjtYB-eCvGxBVAF-SlS1Zq7j2g9D5QzvBCwZ/s1600/coaching.JPG" alt="Logo" class="menu-logo">
-           </li>
-           
-           <li><a href="#section5">Service</a></li> 
-           <li><a href="#section6">Contact</a></li>
-           <li><a href="#section7">Schedule </a></li>
-           <li><a href="#section8">Team</a></li>
-           <li><a href="#section9">FAQ</a></li>
-       </ul>
-   </nav>
-</header>
-
-<!-- Add Font Awesome -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 <style>
-/* General styling for desktop */
-.main-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+/* Define the special color */
+.special-color {
+    color: #FF5733; /* Change this to your desired color */
 }
 
-.main-menu {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    padding: 0;
+/* Define animation */
+@keyframes colorChange {
+    0% { color: inherit; }
+    100% { color: #FF5733; } /* Change this to your desired color */
 }
 
-.main-menu li {
-    display: inline;
+/* Apply animation on hover */
+.external:hover {
+    animation: colorChange 0.5s alternate infinite;
 }
-
-.menu-logo {
-    width: 100px; /* Adjust the size of the logo */
-    height: auto;
-}
-
-/* Responsive styling for mobile devices */
-@media (max-width: 768px) {
-    .main-nav {
-        display: block;
-        text-align: center;
-    }
-
-    .main-menu {
-        display: block;
-        padding: 0;
-    }
-
-    .main-menu li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .menu-logo {
-        display: block;
-        margin: 10px auto;
-        width: 80px; /* Adjust logo size for mobile */
-    }
-}
-
 </style>
-
-
+      </ul>
+    </nav>
+  </header>
 
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
@@ -136,7 +86,11 @@ https://templatemo.com/tm-557-grad-school
           <div class="caption">
               <h6>For IIT PREPERATION</h6>
               <h2><em>Your</em> Classroom</h2>
-              
+              <div class="main-button">
+                  <div class="scroll-to-section"><a href="#section2">Apply</a></div><br>
+               
+   
+              </div>
           </div>
       </div>
   </section>
@@ -153,7 +107,7 @@ https://templatemo.com/tm-557-grad-school
                 <h4><i class="fa fa-pencil"></i>All Courses</h4>
               </div>
               <div class="content-hide">
-                <p align="justify">Premium IIT Coaching Curriculum covering Regular Course,Target Course and Crash Course  meticulously designed for Aspirants.</p>
+                <p>Premium IIT coaching curriculum covering Regular Course,Target Course and Crash Course  meticulously designed for Aspirants.</p>
                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
                 <div class="scroll-to-section"><a href="#section2">More Info.</a></div>
             </div>
@@ -167,7 +121,7 @@ https://templatemo.com/tm-557-grad-school
                 <h4><i class="fa fa-graduation-cap"></i>Virtual Class</h4>
               </div>
               <div class="content-hide">
-                <p align="justify">Premium IIT coaching offering interactive lectures, real-time discussions, and personalized guidance.</p>
+                <p>Premium IIT coaching offering interactive lectures, real-time discussions, and personalized guidance, fostering effective remote education for diverse learners</p>
                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
                 <div class="scroll-to-section"><a href="#section3">Details</a></div>
             </div>
@@ -182,7 +136,7 @@ https://templatemo.com/tm-557-grad-school
                 <h4><i class="fa fa-book"></i>Real Meeting</h4>
               </div>
               <div class="content-hide">
-                <p align="justify"> In-person gatherings fostering collaborative learning, peer interaction, and direct mentorship, enhancing the IIT coaching experience </p>
+                <p> In-person gatherings fostering collaborative learning, peer interaction, and direct mentorship, enhancing the IIT coaching experience through hands-on engagement and personalized support</p>
                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
                 <div class="scroll-to-section"><a href="#section4">Read More</a></div>
             </div>
@@ -192,10 +146,6 @@ https://templatemo.com/tm-557-grad-school
       </div>
     </div>
   </section>
-
-
-
-
 
   <section class="section why-us" data-section="section2">
     <div class="container">
@@ -220,8 +170,8 @@ https://templatemo.com/tm-557-grad-school
                   </div>
                   <div class="col-md-6">
                     <h4>Expertise Insight</h4>
-                    <p align="justify">Receive guidance from seasoned professionals who provide deep knowledge and strategic advice tailored to your learning needs</p>
-                     <p align="justify">Gain invaluable insights and tips from experts who have a thorough understanding of the subject matter and can guide you towards success.</p>
+                    <p>Receive guidance from seasoned professionals who provide deep knowledge and strategic advice tailored to your learning needs</p>
+                     <p>Gain invaluable insights and tips from experts who have a thorough understanding of the subject matter and can guide you towards success.</p>
                   </div>
                 </div>
               </article>
@@ -232,20 +182,20 @@ https://templatemo.com/tm-557-grad-school
                   </div>
                   <div class="col-md-6">
                     <h4>Cutting-edge Materials</h4>
-                    <p align="justify">Access high-quality resources and up-to-date study materials designed to enhance your understanding and keep you ahead in your studies.</p> 
-                    <p align="justify">Explore innovative learning materials and resources that are constantly updated to align with the latest curriculum and examination trends..</p>
+                    <p>Access high-quality resources and up-to-date study materials designed to enhance your understanding and keep you ahead in your studies.</p> 
+                    <p>Explore innovative learning materials and resources that are constantly updated to align with the latest curriculum and examination trends..</p>
                   </div>
                 </div>
               </article>
               <article id='tabs-3'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-03.png" alt="">
+                    <img src="https://source.unsplash.com/SpVHcbuKi6E" alt="">
                   </div>
                   <div class="col-md-6">
                     <h4>Tailored Assistance</h4>
-                    <p align="justify">Benefit from personalized support and mentoring, ensuring that your learning journey is customized to address your unique strengths and challenges effectively.</p>
-                     <p align="justify">Receive individualized attention and guidance, empowering you to overcome obstacles and reach your academic goals with confidence..</p>
+                    <p>Benefit from personalized support and mentoring, ensuring that your learning journey is customized to address your unique strengths and challenges effectively.</p>
+                     <p>Receive individualized attention and guidance, empowering you to overcome obstacles and reach your academic goals with confidence..</p>
                   </div>
                 </div>
               </article>
@@ -262,7 +212,7 @@ https://templatemo.com/tm-557-grad-school
         <div class="col-md-7 col-xs-12">
           <div class="continer centerIt">
             <div>
-              <h4>Sign Up <em>any  course</em> and get Discount immmediately</h4>
+              <h4>Take <em>any online course</em> and win $326 for your next class</h4>
               <div class="counter">
 
                 <div class="days">
@@ -359,10 +309,10 @@ https://templatemo.com/tm-557-grad-school
         </div>
         <div class="owl-carousel owl-theme">
           <div class="item">
-            <img src="https://plus.unsplash.com/premium_photo-1705267936187-aceda1a6c1a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm91bmRhdGlvbiUyMGNsYXNzZXN8ZW58MHx8MHx8fDA%3D" alt="Course #1">
+            <img src="assets/images/courses-01.jpg" alt="Course #1">
             <div class="down-content">
               <h4>Regular Classes</h4>
-              
+              <p>Structured sessions held on a recurring basis, covering essential topics systematically over a period of time</p>
               <div class="author-image">
                 <img src="assets/images/author-01.png" alt="Author 1">
               </div>
@@ -372,10 +322,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JhZHVhdGUlMjBjbGFzc3xlbnwwfHwwfHx8MA%3D%3D" alt="Course #2">
+            <img src="assets/images/courses-02.jpg" alt="Course #2">
             <div class="down-content">
               <h4>Crash Courses</h4>
-              
+              <p>Intensive programs designed to cover key concepts in a condensed timeframe, ideal for last-minute preparation.</p>
               <div class="author-image">
                 <img src="assets/images/author-02.png" alt="Author 2">
               </div>
@@ -385,10 +335,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="https://media.istockphoto.com/id/1297372604/photo/young-college-girl-student-writing-notes-by-looking-into-mobile-phone-during-online-class.webp?b=1&s=612x612&w=0&k=20&c=sjhfimNVRZqQZ-yl9FUamhrwuy0bu9jy7I3uXJVRBPs=" alt="Course #3">
+            <img src="assets/images/courses-03.jpg" alt="Course #3">
             <div class="down-content">
               <h4>Online Classes</h4>
-              
+              <p>Virtual learning platforms offering flexibility and accessibility, allowing students to attend lectures </p>
               <div class="author-image">
                 <img src="assets/images/author-03.png" alt="Author 3">
               </div>
@@ -398,10 +348,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="https://media.istockphoto.com/id/1439722443/photo/young-woman-listening-to-university-lecture.webp?b=1&s=612x612&w=0&k=20&c=cfvat9sItmegM8MsJPWnnpDVVg25VmA2NV7PfYU17vU=" alt="Course #4">
+            <img src="assets/images/courses-04.jpg" alt="Course #4">
             <div class="down-content">
               <h4>Mock Test Series</h4>
-              
+              <p>Practice sessions simulating the helping students their readiness and identify weak areas for improvement.</p>
               <div class="author-image">
                 <img src="assets/images/author-04.png" alt="Author 4">
               </div>
@@ -411,10 +361,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGRvdWJ0JTIwY2xlYXJpbmclMjBzZXNzaW9ufGVufDB8fDB8fHww" alt="">
+            <img src="assets/images/courses-05.jpg" alt="">
             <div class="down-content">
               <h4>Doubt Clearing Sessions</h4>
-              
+              <p>Interactive sessions focused on addressing students'ensuring thorough understanding .</p>
               <div class="author-image">
                 <img src="assets/images/author-05.png" alt="">
               </div>
@@ -424,10 +374,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="https://plus.unsplash.com/premium_photo-1661456103913-8988b2e34769?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b25lJTIwdG8lMjBvbmUlMjB0dXRvcmluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+            <img src="assets/images/courses-01.jpg" alt="">
             <div class="down-content">
               <h4>One-on-One Tutoring</h4>
-              
+              <p>Personalized coaching sessions tailored to individual learning styles and needs, providing targeted support.</p>
               <div class="author-image">
                 <img src="assets/images/author-01.png" alt="">
               </div>
@@ -437,10 +387,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="https://plus.unsplash.com/premium_photo-1682787494765-44d02d12f5be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZvdW5kYXRpb24lMjBjb3Vyc2UlMjBncmFkdWF0ZSUyMGNsYXNzfGVufDB8fDB8fHww" alt="">
+            <img src="assets/images/courses-02.jpg" alt="">
             <div class="down-content">
               <h4>Foundation Courses</h4>
-             
+              <p>Designed to strengthen basic concepts in subjects like mathematics, physics, and chemistry</p>
               <div class="author-image">
                 <img src="assets/images/author-02.png" alt="">
               </div>
@@ -450,10 +400,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="https://plus.unsplash.com/premium_photo-1681248156499-f664207b679e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cml2aXNpb24lMjAlMjBncmFkdWF0ZSUyMGNsYXNzfGVufDB8fDB8fHww" alt="">
+            <img src="assets/images/courses-03.jpg" alt="">
             <div class="down-content">
               <h4>Revision Classes</h4>
-              
+              <p>For revisiting previously covered topics, reinforcing understanding, and addressing any gaps in knowledge to ensure preparation</p>
               <div class="author-image">
                 <img src="assets/images/author-03.png" alt="">
               </div>
@@ -463,10 +413,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="https://plus.unsplash.com/premium_photo-1723485812092-e73a27de830f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8UHJhY3RpY2UlMjBXb3Jrc2hvcHN8ZW58MHx8MHx8fDA%3D" alt="">
+            <img src="assets/images/courses-04.jpg" alt="">
             <div class="down-content">
               <h4>Practice Workshops</h4>
-              
+              <p>Hands-on workshops providing opportunities for students to practice problem-solving techniques,with strategies</p>
               <div class="author-image">
                 <img src="assets/images/author-04.png" alt="">
               </div>
@@ -476,10 +426,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="https://images.unsplash.com/photo-1532619187608-e5375cab36aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHN0cmF0ZWd5JTIwc2Vzc2lvbnMlMjBjbGFzc3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+            <img src="assets/images/courses-05.jpg" alt="">
             <div class="down-content">
               <h4>Strategy Sessions</h4>
-              
+              <p>Sessions dedicated to discussing exam strategies, time management techniques, and effective study habits empowering students </p>
               <div class="author-image">
                 <img src="assets/images/author-05.png" alt="">
               </div>
@@ -489,10 +439,10 @@ https://templatemo.com/tm-557-grad-school
             </div>
           </div>
           <div class="item">
-            <img src="https://images.unsplash.com/photo-1511629091441-ee46146481b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fEd1ZXN0JTIwTGVjdHVyZXMlMjBjbGFzc3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+            <img src="assets/images/courses-01.jpg" alt="">
             <div class="down-content">
               <h4>Guest Lectures</h4>
-              
+              <p>Invited talks by industry experts, alumni, or renowned academicians offering insights, inspiration</p>
               <div class="author-image">
                 <img src="assets/images/author-01.png" alt="">
               </div>
@@ -514,9 +464,9 @@ https://templatemo.com/tm-557-grad-school
           <div class="left-content">
             <span>our presentation is for you</span>
             <h4>Watch the video to learn more <em>about Premium IIT Coaching</em></h4>
-            <p align="justify">"Unlock success with expert insights! Watch Our video series to gain valuable tips and strategies for cracking the IIT entrance exam, guiding you towards academic excellence and achieving your dreams." You can fill Form to Schedule A Demo to know More.
+            <p>"Unlock success with expert insights! Watch our video series to gain valuable tips and strategies for cracking the IIT entrance exam, guiding you towards academic excellence and achieving your dreams." You can fill Form<a rel="nofollow" href="schedule.html" target="_parent">Schedule A Demo</a> to know More.
             <br><br>"Empower your IIT journey by watching our comprehensive video guide, equipping you with the tools and knowledge needed to ace the exam."</p>
-            <!---<div class="main-button"><a rel="nofollow" href="faq.html" target="_parent">FAQ</a></div>--->
+            <div class="main-button"><a rel="nofollow" href="faq.html" target="_parent">FAQ</a></div>
           </div>
         </div>
         <div class="col-md-6">
@@ -605,699 +555,16 @@ https://templatemo.com/tm-557-grad-school
       </div>
     </div>
   </section>
-<section class="section contact" data-section="section7">
+
+  <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Schedule A Demo</h2>
-          </div>
-        </div>
-        <div class="col-md-6">
-        
-        <!-- Do you need a working HTML contact-form script?
-                	
-                    Please visit https://templatemo.com/contact page -->
-                    
-          <form id="contactForm-2">
-            <div class="row">
-              <div class="col-md-6">
-                  <fieldset>
-                    <input name="Student Name" type="text" class="form-control" id="name" placeholder="Student Name" required="">
-                  </fieldset>
-                </div>
-                <div class="col-md-6">
-                  <fieldset>
-                    <input name="Student Mobile Number" type="text" class="form-control" id="mobile" placeholder="Student Number" required="">
-                  </fieldset>
-                </div>
-               <div class="col-md-6">
-                  <fieldset>
-                    <input name="Parent Name" type="text" class="form-control" id="name" placeholder="Parent Name" required="">
-                  </fieldset>
-                </div>
-               <div class="col-md-6">
-                  <fieldset>
-                    <input name="Parent Mobile Number" type="text" class="form-control" id="Mobile" placeholder="Parent Number" required="">
-                  </fieldset>
-                </div>
-                <div class="col-md-6">
-                  <fieldset>
-                    <input name="Parent Email" type="text" class="form-control" id="email" placeholder="Parent Email" required="">
-                  </fieldset>
-                </div>
-                <div class="col-md-6">
-                  <fieldset>
-                    <input name="Parent Profession" type="text" class="form-control" id="profession" placeholder="Parent Profession" required="">
-                  </fieldset>
-                </div>
-               <div class="col-xl-6">
-                    <input type="Date" class="form-control py-3 border-primary bg-black" name="date">
-                </div>
-              <div class="col-xl-6">
-                  <input type="Time" class="form-control col-sm-10 col-sm-2 col-form-label" name="time">
-                </div>
-               <div class="col-md-6">
-                    <select  aria-label="Gender" name="Course">
-                        <option selected>Course Which You Want</option>
-                        <option value="Online Classes">Online Classes</option>
-                        <option value="Mock Test Series">Mock Test Series</option>
-                        <option value="Doubt Clearing Sessions">Doubt Clearing Sessions</option> 
-                        <option value="Online Classes">One to One Tutoring</option>
-                        <option value="Foundation Courses">Foundation Courses</option>
-                        <option value="Revision Classes">Revision Classes</option>
-                         <option value="Prcatise Workshops">Prcatise Workshops</option>
-                        <option value="Foundation Courses">Foundation Courses</option>
-                        <option value="Strategy Lessons">Strategy Lessons</option>
-                        <option value="Guest Lectures">Guest Lectures</option>
-                    </select>
-                </div><br></br>
-               <div class="col-12">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" name="Address" id="subject" placeholder="Your Address">
-                                            
-                                        </div>
-                                    </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="button">Send Message Now</button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-<script>
-    // JavaScript to handle form submission
-    document.getElementById("contactForm-2").addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent the default form submission
-
-        const formData = new FormData(event.target);
-        const email = 'kwagaecom@gmail.com'; // Your Gmail address
-        const subject = 'Schedule A Form Submission'; // Subject for the email
-
-        let message = "Schedule Details:\n\n";
-
-        // Iterate over form data and append to message
-        for (const [key, value] of formData.entries()) {
-            message += `${key}: ${value}\n`;
-        }
-
-        // Create a "mailto" URL with the pre-filled email subject and body
-        const mailtoURL = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
-
-        // Open the default email client with the pre-filled email
-        window.location.href = mailtoURL;
-
-        // You can also display a success message or redirect the user to a thank-you page
-    });
-</script>
-        <div class="col-md-6">
-          <div id="map">
-            <img class="rounded w-100" style="height: 500px;" src="https://images.unsplash.com/photo-1560264357-8d9202250f21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2Nob29sJTIwb2ZmaWNlfGVufDB8fDB8fHww" alt="Map Image">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-<style>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap");
-@mixin mQ($rem) {
-  @media screen and (min-width: $rem) {
-    @content;
-  }
-}
-
-$position: -0.375rem;
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
- background: url(https://plus.unsplash.com/premium_photo-1661901004198-0771cc6d5a53?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvYWNoaW5nJTIwY2xhc3MlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
-  min-height: 100vh;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
-ul {
-  list-style-type: none;
-
-  i {
-    color: #fff;
-    font-size: clamp(0.9rem, 0.825rem + 0.3vw, 1.2rem);
-
-    &:hover {
-      color: #f2709c;
-    }
-  }
-}
-
-section {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  padding-block: min(20vh, 6rem);
-  text-align: center;
-  width: calc(min(90rem, 90%));
-  margin-inline: auto;
-
-  span,
-  p,
-  h2,
-  h3 {
-    letter-spacing: 0.035rem;
-  }
-
-  p {
-    line-height: 1.6;
-    color: #a3a3a3;
-    max-width: 50rem;
-    margin: 0 auto;
-    font-size: clamp(0.9rem, 0.825rem + 0.3vw, 1.2rem);
-  }
-
-  .bg-watermark {
-    color: #1f1f1f;
-    font-size: clamp(6rem, 1.3333rem + 14.9333vw, 20rem);
-    font-weight: 800;
-    position: absolute;
-    z-index: -1;
-    left: 50%;
-   
-    user-select: none;
-    letter-spacing: 0.5rem;
-  }
-
-  span {
-    text-transform: uppercase;
-    display: block;
-    font-size: 1.2rem;
-    color: #a3a3a3;
-  }
-
-  h2 {
-    font-size: clamp(3.5rem, 3rem + 1.6vw, 5rem);
-    margin-top: -0.625rem;
-    color: #fff;
-  }
-
-  .cards {
-    margin-top: 7rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(12rem, 100%), 1fr));
-    gap: 2rem;
-
-    @include mQ(51rem) {
-      gap: 0;
-      padding-bottom: 2.5rem;
-    }
-
-    .card {
-      position: relative;
-      cursor: pointer;
-
-      h3,
-      p {
-        text-transform: capitalize;
-      }
-
-      h3 {
-        font-size: clamp(1rem, 0.9167rem + 0.2667vw, 1.25rem);
-        font-weight: 400;
-        color: #f6f6f6;
-      }
-
-      p {
-        font-size: clamp(0.85rem, 0.75rem + 0.32vw, 1.15rem);
-        letter-spacing: 0.12rem;
-        font-weight: 300;
-        max-width: 100%;
-      }
-
-      &::before {
-        position: absolute;
-        content: "";
-        width: 5rem;
-        height: 6.25rem;
-        z-index: 0;
-        transition: 0.3s ease-in-out;
-       
-        top: $position;
-        left: $position;
-      }
-
-      &::after {
-        position: absolute;
-        inset: 0;
-        content: "";
-        width: 100%;
-        height: 100%;
-      
-      }
-
-      img {
-        filter: grayscale(100%);
-        transition: 0.5s ease;
-      }
-
-      &-content {
-        position: absolute;
-        bottom: 0;
-        z-index: 99;
-        left: 0;
-        color: #fff;
-        width: 100%;
-        padding: 1.875rem 1.25rem;
-        text-align: center;
-
-        ul {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 0.625rem;
-          margin-top: 1.25rem;
-        }
-      }
-
-      &:hover img {
-        filter: grayscale(0%);
-      }
-
-      &:hover::before {
-        transform: scale(1.03);
-      }
-    }
-    .card:nth-child(1) {
-      &::before {
-        top: $position;
-        left: $position;
-      }
-    }
-    .card:nth-child(2) {
-      @include mQ(31.25rem) {
-        transform: translatey(15%);
-      }
-
-      &::before {
-        bottom: $position;
-        left: $position;
-        top: auto;
-      }
-    }
-    .card:nth-child(3) {
-      &::before {
-        top: $position;
-        left: $position;
-      }
-    }
-  }
-}
-</style>
-
-
-<section class="section contact" data-section="section8">
-  <span>Get to know the passionate minds behind our success</span>
-  <h2>Meet Our Faculty!</h2>
-  <p>Discover the talent and dedication driving our mission forward—Meet Our Faculty</p>
-  <span class="bg-watermark">team</span>
-  <div class="cards">
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Franklin Carlson">
-      <div class="card-content">
-        <h3>Franklin carlson</h3>
-        <p>Founder</p>
-        <ul>
-          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Antonia Moore">
-      <div class="card-content">
-        <h3>Antonia moore</h3>
-        <p>Co-Founder</p>
-        <ul>
-          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Travis Lynch">
-      <div class="card-content">
-        <h3>Travis lynch</h3>
-        <p>Admin</p>
-        <ul>
-          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <br> <br> <br>
-<h5 align="center" style="color: green; font-size: 24px; margin-bottom: 20px;">Frequently Asked Questions</h5>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<section class="section contact" data-section="section9">
-  <div class="accordion" id="accordionExample" style="max-width: 600px; margin: 0 auto; padding: 20px;">
-    <div class="accordion-item">
-      <h5 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          What is the duration of the IIT JEE preparation course?
-        </button>
-      </h5>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          Our IIT JEE preparation course is typically spread over 2 years, starting from Class 11. We also offer a 1-year crash course for students in Class 12.
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h5 class="accordion-header" id="headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          What is the success rate of your students in JEE exams?
-        </button>
-      </h5>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          Our coaching center has a proven track record with over 75% of our students clearing JEE Mains, and many securing top ranks in JEE Advanced.
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h5 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Do you provide study materials and mock tests?
-        </button>
-      </h5>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          Yes, we provide comprehensive study materials, including books, practice papers, and online resources. Regular mock tests are also conducted to evaluate students' progress.
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h5 class="accordion-header" id="headingFour">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          What are the class timings and batch options?
-        </button>
-      </h5>
-      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          We offer both morning and evening batches to accommodate school timings. Classes are held 5 days a week, with additional doubt-clearing sessions on weekends.
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bootstrap JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</section>
-
-  <footer>
-
-
-        <div class="copyright-area">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-<!-- Contact Information -->
-<div class="contact-info" style="text-align: right; margin-right: 30px; margin-bottom: 20px;">
-  <div>
-    <b><i class="fas fa-phone"></i></b> +91 8797529661
-    <span style="margin-left: 20px;">
-      <b><i class="fas fa-envelope"></i></b> <a href="mailto:service@coaching.com">service@coaching.com</a>
-    </span>
-  </div>
-</div>
-
-<!-- Copyright Section -->
-<style>
-    .copyright {
-        text-align: center;
-        padding: 10px 0;
-        background-color: #f8f9fa;
-        border-top: 1px solid #e0e0e0;
-    }
-    .copyright span {
-        display: inline-block;
-        margin-left: 50px;
-        color: #333;
-        font-size: 14px;
-    }
-    .copyright strong span {
-        color: #007bff; /* Change this to your preferred color */
-    }
-    .credits {
-        text-align: center;
-        margin-top: 10px;
-        color: #555;
-    }
-    .credits a {
-        text-decoration: none;
-        color: #007bff;
-    }
-</style>
-
-<div align="center" class="copyright">
-    <span>&copy; Copyright <strong><span id="yearSpan"></span> <br>PREMIUM COACHING</br></strong>. All Rights Reserved</span>
-</div>
-
-
-<script>
-    // Get the current year
-    const currentYear = new Date().getFullYear();
-    // Calculate the next year
-    const nextYear = currentYear + 1;
-    // Set the text in the span
-    document.getElementById('yearSpan').textContent = `${currentYear}-${nextYear}`;
-</script>
-</br></br>
-<!-- Button with Badges and Stars -->
-<div class="contact-info" style="text-align: right; margin-right: 30px;">
-  <button type="button" class="btn btn-primary" style="display: flex; align-items: center; padding: 10px 20px;">
-    <h5 style="margin: 0;">
-      <span class="badge bg-primary">K</span>
-      <span class="badge bg-secondary">W</span>
-      <span class="badge bg-danger">D</span>
-      <span class="badge bg-success">4.7</span>
-      <span class="badge bg-info">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </span>
-    </h5>
-  </button>
-</div>
-    </footer>
-<style>
-    .wa__btn_popup {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 1000;
-    }
-
-    .wa__btn_popup .wa__btn_popup_icon {
-      width: 50px;
-      height: 50px;
-      background-color: #25D366;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-    }
-
-    .wa__popup_chat_box {
-      position: fixed;
-      bottom: 80px;
-      right: 20px;
-      width: 300px;
-      display: none;
-      z-index: 1000;
-      border-radius: 0.25rem;
-      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-    }
-
-    .wa__popup_chat_box .wa__popup_heading {
-      background-color: #28a745;
-      color: #f8f9fa;
-      padding: 1rem 1.5rem;
-      border-top-left-radius: 0.25rem;
-      border-top-right-radius: 0.25rem;
-    }
-
-    .wa__popup_chat_box .wa__popup_content {
-      
-      margin: 1.5rem;
-    }
-
-    .wa__popup_chat_box .wa__popup_content_item {
-      margin-bottom: 0.5rem;
-    }
-
-    .wa__popup_chat_box .wa__popup_avatar {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      background-size: cover;
-      background-position: center center;
-    }
-
-    .wa__popup_chat_box .wa__popup_txt {
-      display: inline-block;
-      vertical-align: middle;
-      margin-left: 10px;
-    }
-
-    .wa__popup_chat_box .wa__popup_txt .wa__member_name {
-      font-weight: bold;
-    }
-
-    .wa__popup_chat_box .wa__popup_txt .wa__member_duty {
-      color: #6c757d;
-    }
-
-    .wa__popup_chat_box a {
-      display: flex;
-      align-items: center;
-      text-decoration: none;
-      color: inherit;
-    }
-  </style>
-
-  <div class="wa__btn_popup">
-    <div class="wa__btn_popup_icon">
-      <i class="fa fa-2x fa-comments"></i>
-    </div>
-  </div>
-
-  <div class="wa__popup_chat_box wa__pending wa__lauch">
-    <div class="wa__popup_heading">
-      <div class="fw-bold wa__popup_title">Start a Conversation</div>
-      <div class="small wa__popup_intro">
-        Hi! Click one of our members below to chat on <strong>WhatsApp ;)</strong>
-      </div>
-    </div>
-
-   <div class="wa__popup_content wa__popup_content_left">
-       <!--<div class="small text-secondary wa__popup_notice">
-        Tim kami biasanya membalas dalam hitungan menit
-      </div>-->
-
-      <div class="wa__popup_content_list">
-        <!-- Member 1 -->
-        <div class="wa__popup_content_item">
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=7838090428" class="rounded wa__stt wa__stt_online">
-            <div class="wa__popup_avatar" style="background-image: url('#');">
-            </div>
-            <div class="wa__popup_txt">
-              <div class="wa__member_name">Sohan kumar</div>
-              <div class="wa__member_duty">Admin</div>
-            </div>
-          </a>
-        </div>
-
-        <!-- Member 2 -->
-        <div class="wa__popup_content_item">
-          <a target="_blank" href="https://web.whatsapp.com/send?phone=8797529661" class="rounded wa__stt wa__stt_online">
-            <div class="wa__popup_avatar" style="background-image: url('#');">
-            </div>
-            <div class="wa__popup_txt">
-              <div class="wa__member_name">Rohan kumar</div>
-              <div class="wa__member_duty">Customer Representative</div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <!-- /.wa__popup_content_list -->
-    </div>
-    <!-- /.wa__popup_content -->
-  </div>
-
-  <script>
-    document.querySelector('.wa__btn_popup').addEventListener('click', function() {
-      const chatBox = document.querySelector('.wa__popup_chat_box');
-      if (chatBox.style.display === 'none' || chatBox.style.display === '') {
-        chatBox.style.display = 'block';
-      } else {
-        chatBox.style.display = 'none';
-      }
-    });
-  </script>
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/video.js"></script>
-    <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-        //according to loftblog tut
-        $('.nav li:first').addClass('active');
-
-        var showSection = function showSection(section, isAnimate) {
-          var
-          direction = section.replace(/#/, ''),
-          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-          reqSectionPos = reqSection.offset().top - 0;
-
-          if (isAnimate) {
-            $('body, html').animate({
-              scrollTop: reqSectionPos },
-            800);
-          } else {
-            $('body, html').scrollTop(reqSectionPos);
-          }
-
-        };
-
-        var checkSection = function checkSection() {
-          $('.section').each(function () {
-            var
-            $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-            if (topEdge < wScroll && bottomEdge > wScroll) {
-              var
-              currentId = $this.data('section'),
-              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-              reqLink.closest('li').addClass('active').
-              siblings().removeClass('active');
-            }
-          });
-        };
-
-        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
-          if($(e.target).hasClass('external')) {
-            return;
-          }
-          e.preventDefault();
-          $('#menu').removeClass('active');
-          showSection($(this).attr('href'), true);
-        });
-
-        $(window).scroll(function () {
-          checkSection();
-        });
-    </script>
-<body onload="google_translate()">
+          <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="container">
+                  <body onload="google_translate()">
     <div id="translation"></div>
 
     <!-- Your other page content goes here -->
@@ -1386,7 +653,11 @@ body {
 
 /* Container for the translation widget */
 #translation {
-    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust as needed */
+    margin-bottom: 0;
 }
 
 /* Styling for the Google Translate widget */
@@ -1399,31 +670,15 @@ body {
 }
 
 /* Custom styling for the translation button */
-/* Custom styling for the translation button */
 .goog-te-gadget-simple {
     background-color: #007bff !important; /* Button color */
-    border: 1px solid #0056b3 !important; /* Border color */
-    border-radius: 1px;
+    border: 2px solid #0056b3 !important; /* Border color */
+    border-radius: 4px;
     color: white !important;
-    font-size: 12px !important; /* Decreased font size */
-    padding: 1px 1px !important; /* Smaller padding */
+    font-size: 16px !important;
+    padding:5px 10px !important;
     cursor: pointer;
     transition: background-color 0.3s ease, border-color 0.3s ease;
-    width: auto; /* Adjust width automatically */
-    display: inline-block;
-}
-
-.goog-te-gadget-simple .goog-te-menu-value {
-    color: white !important;
-    padding: 0 !important; /* Remove padding inside the select box */
-}
-
-/* Custom styling for a more compact look on smaller screens */
-@media (max-width: 600px) {
-    .goog-te-gadget-simple {
-        font-size: 10px !important;
-        padding: 2px 4px !important;
-    }
 }
 
 .goog-te-gadget-simple:hover {
@@ -1473,10 +728,79 @@ iframe.goog-te-menu-frame {
     max-width: 20% !important;
     height: auto !important;
 }
-
-
 </style>
+    </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+          if($(e.target).hasClass('external')) {
+            return;
+          }
+          e.preventDefault();
+          $('#menu').removeClass('active');
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
 </body>
 </html>
